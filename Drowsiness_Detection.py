@@ -56,8 +56,8 @@ while True:
 					cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 				cv2.putText(frame, "***********Increasing Level**************", (10,325),
 					cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
-				print ("Incresing Level")
-				playsound("Increasing.mp3")
+				#print ("Incresing Level")
+				#playsound("Increasing.mp3")
 
 			elif  flag >= frame_check:
 				cv2.putText(frame, "***********Drowsiness detected**************", (10, 30),
